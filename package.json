@@ -1,0 +1,17 @@
+{
+    "name": "intercom-conversations-export",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Export Intercom conversations and save to JSON files.",
+    "main": "create_conversations.js",
+    "scripts": {
+        "start": "node create_conversations.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "fs-extra": "^11.2.0",
+        "intercom-client": "^3.3.0",
+        "node-fetch": "^3.3.2"
+    }
+}
+  
